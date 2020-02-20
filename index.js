@@ -1,0 +1,1 @@
+var SOME_RANDOM_VARIABLE = "foobar/873880.json";

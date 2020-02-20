@@ -1,0 +1,1 @@
+var RotateChild=pc.createScript("rotateChild");RotateChild.prototype.initialize=function(){this.m=this.entity.findByName("Box"),this.angle=50},RotateChild.prototype.update=function(t){this.angle+=100*t,this.m.setEulerAngles(0,this.angle,this.angle)};
